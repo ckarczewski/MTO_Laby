@@ -17,27 +17,30 @@ void change (char *param){
 
 int my_printf(char *format_string, char *param){
 	for(int i=0;i<strlen(format_string);i++){
+		if (format_string[i] != '#') {
+			putchar(format_string[i]);
+			continue;
+		}
 		if((format_string[i] == '#') && (format_string[i+1] == 'k')){
 			i++;
 			change(param);
 		}
-		else if ((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2]) && format_string[i+3] == 'k'){
-			int sec_place = i + 2;
-			char sign = format_string[sec_place];
+		if ((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2]) && format_string[i+3] == 'k'){
+			int sec_i = i + 2;
+			char test = format_string[sec_i];
 			int leng = 0;
-			while (sign >= '0' && sign <='9' && sec_place < strlen(format_string)){
-				leng = leng * 10 + (sign - '0');
-				sec_place++;
-				sign = format_string[sec_place];
+			while (test >= '0' && test <='9' && sec_i < strlen(format_string)){
+				leng = leng * 10 + (test - '0');
+				sec_i++;
+				test = format_string[sec_i];
 			}
-			i = sec_place;
+			i = sec_i;
 			change(param);
 			for (int l=0; l < leng; l++){
+				if (l >= strlen(param)) break;
 				putchar(param[l]);
 			}
-		} else {
-			putchar(format_string[i]);
-		}
+		} 
 			
 	}
 	puts("");
