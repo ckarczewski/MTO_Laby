@@ -17,16 +17,15 @@ void change (char *param){
 
 int my_printf(char *format_string, char *param){
 	for(int i=0;i<strlen(format_string);i++){
-		if (format_string[i] != '#') {
-			putchar(format_string[i]);
-			continue;
-		}
-		if(format_string[i+1] == 'k'){
+		// if (format_string[i] != '#') {
+		// 	putchar(format_string[i]);
+		// 	continue;
+		// }
+		if((format_string[i] == '#') && (format_string[i+1] == 'k')){
 			i++;
 			change(param);
-			continue;
-		}
-		if ((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2]) && format_string[i+3] == 'k'){
+			// continue;
+		} else if ((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2]) && format_string[i+3] == 'k'){
 			int sec_place = i + 2;
 			char sign = format_string[sec_place];
 			int leng = 0;
@@ -49,7 +48,9 @@ int my_printf(char *format_string, char *param){
 				putchar(letter_number);
 
 			}
-		} 
+		} else {
+			putchar(format_string[i]);
+		}
 			
 	}
 	puts("");
