@@ -22,5 +22,7 @@ RazDwa #k TrzyCztery
 test11
 Cztery #k
 test12
-ppp #k ee
-TeSt14
+ppp #.3k ee
+Test14
+ppp #.8k ee
+Test15

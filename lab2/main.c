@@ -20,8 +20,25 @@ int my_printf(char *format_string, char *param){
 		if((format_string[i] == '#') && (format_string[i+1] == 'k')){
 			i++;
 			change(param);
-		}else
+		}
+		else if ((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2]) && format_string[i+3] == 'k'){
+			int sec_place = i + 2;
+			char sign = format_string[sec_place];
+			int leng = 0;
+			while (sign >= '0' && sign <='9' && sec_place < strlen(format_string)){
+				leng = leng * 10 + (sign - '0');
+				sec_place++;
+				sign = format_string[sec_place];
+			}
+			i = sec_place;
+			change(param);
+			for (int l=0; l < leng; l++){
+				putchar(param[l]);
+			}
+		} else {
 			putchar(format_string[i]);
+		}
+			
 	}
 	puts("");
 }
