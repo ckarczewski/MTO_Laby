@@ -21,29 +21,39 @@ int my_printf(char *format_string, char *param){
 			putchar(format_string[i]);
 			continue;
 		}
-		if((format_string[i] == '#') && (format_string[i+1] == 'k')){
+		if(format_string[i+1] == 'k'){
 			i++;
 			change(param);
+			continue;
 		}
 		if ((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2]) && format_string[i+3] == 'k'){
-			int sec_i = i + 2;
-			char test = format_string[sec_i];
+			int sec_place = i + 2;
+			char sign = format_string[sec_place];
 			int leng = 0;
-			while (test >= '0' && test <='9' && sec_i < strlen(format_string)){
-				leng = leng * 10 + (test - '0');
-				sec_i++;
-				test = format_string[sec_i];
+			while (sign >= '0' && sign <='9' && sec_place <= strlen(format_string)){
+				leng = leng * 10 + (sign - '0');
+				sec_place++;
+				sign = format_string[sec_place];
 			}
-			i = sec_i;
-			change(param);
+			i = sec_place;
+
 			for (int l=0; l < leng; l++){
 				if (l >= strlen(param)) break;
-				putchar(param[l]);
+				char letter = param[l];
+				int letter_number = (int) letter;
+				if (letter_number >=65 && letter_number <= 90) {
+					letter_number = letter_number + 32;
+				} else if (letter_number >=97 && letter_number <=122){
+					letter_number = letter_number - 32;
+				}
+				putchar(letter_number);
+
 			}
 		} 
 			
 	}
 	puts("");
+	return 0;
 }
 
 int main(int argc, char *argv[]){
