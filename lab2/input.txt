@@ -38,3 +38,5 @@ test21
 test20
 zero #.0k ddda
 test21
+zero #.100k ddda
+test22

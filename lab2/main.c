@@ -21,8 +21,7 @@ int my_printf(char *format_string, char *param){
 		if((format_string[i] == '#') && (format_string[i+1] == 'k')){
 			i++;
 			change(param);
-		} else if (((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2]) && (format_string[i+3] == 'k')) || 
-		((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2]) && isdigit(format_string[i+3])&& (format_string[i+4] == 'k'))){
+		} else if ((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2])){
 			int sec_place = i + 2;
 			char sign = format_string[sec_place];
 			int leng = 0;
@@ -31,8 +30,12 @@ int my_printf(char *format_string, char *param){
 				sec_place++;
 				sign = format_string[sec_place];
 			}
+			if (sign != 'k'){
+				putchar(format_string[i]);
+				continue;
+			}
 			i = sec_place;
-
+			
 			for (int l=0; l < leng; l++){
 				if (l >= strlen(param)) break;
 				char letter = param[l];

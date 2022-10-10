@@ -18,3 +18,4 @@ rtr #.
 ttr TES
 T rrr
 zero  ddda
+zero TEST22 ddda
