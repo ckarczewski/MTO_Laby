@@ -48,10 +48,9 @@ int my_printf(char *format_string, char *param){
 					letter_number = letter_number - 32;
 				}
 				putchar(letter_number);
-
+				}
 			}
-			}
-
+			change(param);
 		} else if ((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2])){
 			int sec_place = i + 2;
 			char sign = format_string[sec_place];
