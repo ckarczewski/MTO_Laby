@@ -40,3 +40,5 @@ zero #.0k ddda
 test21
 zero #.100k ddda
 test22
+sss #10k xddd
+test23
