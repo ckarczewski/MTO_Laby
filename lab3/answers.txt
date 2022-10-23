@@ -18,3 +18,10 @@ rtr #.
 ttr TES
 T rrr
 zero  ddda
+zero TEST22 ddda
+sss      TEST23 xddd
+gggg TEST24 eheheh
+pol # 4 k ffffff
+pol # 222k ddddd
+     TEST27 kkk # 3 kkk
+wwww       TEST28

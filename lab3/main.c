@@ -30,10 +30,10 @@ int my_printf(char *format_string, char *param){
 				sec_place++;
 				sign = format_string[sec_place];
 			}
-			if (sign != 'k'){
-				putchar(format_string[i]);
-				continue;
-			}
+			// if (sign != 'k'){
+			// 	putchar(format_string[i]);
+			// 	continue;
+			// }
 			i = sec_place;
 			if (leng > strlen(param)){
 				for (int j=0; j<leng-strlen(param); j++){
