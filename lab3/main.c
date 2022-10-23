@@ -22,7 +22,7 @@ int my_printf(char *format_string, char *param){
 			i++;
 			change(param);
 		} else if ((format_string[i] == '#') && isdigit(format_string[i+1])){
-			int sec_place = i + 2;
+			int sec_place = i + 1;
 			char sign = format_string[sec_place];
 			int leng = 0;
 			while (sign >= '0' && sign <='9' && sec_place <= strlen(format_string)){
@@ -35,7 +35,22 @@ int my_printf(char *format_string, char *param){
 				continue;
 			}
 			i = sec_place;
-			change(param);
+			if (leng > strlen(param)){
+				for (int j=0; j<leng-strlen(param); j++){
+					putchar(' ');
+				}
+				for (int l=0; l < strlen(param); l++){
+				char letter = param[l];
+				int letter_number = (int) letter;
+				if (letter_number >=65 && letter_number <= 90) {
+					letter_number = letter_number + 32;
+				} else if (letter_number >=97 && letter_number <=122){
+					letter_number = letter_number - 32;
+				}
+				putchar(letter_number);
+
+			}
+			}
 
 		} else if ((format_string[i] == '#') && (format_string[i+1] == '.') && isdigit(format_string[i+2])){
 			int sec_place = i + 2;
