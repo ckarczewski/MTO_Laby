@@ -25,3 +25,6 @@ pol # 4 k ffffff
 pol # 222k ddddd
      TEST27 kkk # 3 kkk
 wwww       TEST28
+ddd #ed eheheh
+eee TEST30 ppp
+ccc 4k ddd
