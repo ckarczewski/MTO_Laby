@@ -2,7 +2,7 @@ totafsdfsf  fdsfsdf
 totafsd321 fdsfsdf fdfjs
 jfldjfldk # wynik
 fjdfsfds # g alal
-djfjkldsjf 400 jjjjjj fsfjdljfdlsj flj ldfj
+djfjkldsjf  jjjjjj fsfjdljfdlsj flj ldfj
 gjjkdsljflds  jdlkfjdslf
 fjdslkfjdl  tttttt
 fjdlsjfkl  oooolll
@@ -11,3 +11,6 @@ fjdlskjfldjflj -32 rewrewrew
 minus ddd  dddd
 minus coma  eee
 only g wrrrr
+zero  wwww
+minus zero  ffff
+minus zero coma  dddd
