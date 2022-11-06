@@ -10,9 +10,10 @@ def my_printf(format_string,param):
             if format_string[idx] == '#' and format_string[idx+1] == 'g':
                 if param.isdigit():
                     print(param[::-1],end="")
+                elif param[0]=="-" and param[1:].isdigit():
+                    print(param[0] + param[1:][::-1],end="")
                 else:
                     print("",end="")
-
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
