@@ -8,7 +8,9 @@ def my_printf(format_string,param):
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'g':
-                if param.isdigit():
+                if param[0]=="0" or param[1]=="0":
+                    print("",end="")
+                elif param.isdigit():
                     print(param[::-1],end="")
                 elif param[0]=="-" and param[1:].isdigit():
                     print(param[0] + param[1:][::-1],end="")
