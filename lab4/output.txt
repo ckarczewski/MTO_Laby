@@ -11,3 +11,6 @@ fjdlskjfldjflj -32 rewrewrew
 minus ddd  dddd
 minus coma  eee
 only g wrrrr
+zero  wwww
+minus zero  ffff
+minus zero coma  dddd

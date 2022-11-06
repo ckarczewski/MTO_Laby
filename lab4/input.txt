@@ -24,4 +24,10 @@ minus coma #g eee
 -2,4
 only g wrrrr
 278
+zero #g wwww
+003
+minus zero #g ffff
+-002
+minus zero coma #g dddd
+-0.002
 
