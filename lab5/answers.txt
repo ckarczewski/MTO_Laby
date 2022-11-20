@@ -1,16 +1,10 @@
-totafsdfsf  fdsfsdf
-totafsd321 fdsfsdf fdfjs
-jfldjfldk # wynik
+totafsdfsf test fdsfsdf
+totafsdtest2 fdsfsdf fdfjs
+jfldjfldg # wynig
 fjdfsfds # g alal
-djfjkldsjf  jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds  jdlkfjdslf
-fjdslkfjdl  tttttt
-fjdlsjfkl  oooolll
-rwrewrew 444 fjdslkjfdl
-fjdlskjfldjflj -32 rewrewrew
-minus ddd  dddd
-minus coma  eee
-only g wrrrr
-zero  wwww
-minus zero  ffff
-minus zero coma  dddd
+djfjgldsjf test5 jjjjjj fsfjdljfdlsj flj ldfj
+gjjgdsljflds test6 jdlgfjdslf
+fjdslgfjdl test7 tttttt
+fjdlsjfgl test8 oooolll
+rwrewrew test9 fjdslgjfdl
+fjdlsgjfldjflj test10 rewrewrew
