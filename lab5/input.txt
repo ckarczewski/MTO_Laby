@@ -24,3 +24,7 @@ test12 #g asd
 0123
 test12 #g asd
 1230
+test13 #g asd
+-1234
+test14 #g asd
+-01234
