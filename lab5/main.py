@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 
 import sys
-
+def is_digit(n):
+    try:
+        int(n)
+        return True
+    except ValueError:
+        return  False
+        
 def my_printf(format_string,param):
     #print(format_string)
     t = ""
