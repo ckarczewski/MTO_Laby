@@ -22,6 +22,7 @@ def decrease_numbers(param):
             new_param = new_param + temp
             temp = ""
     elif number < 0:
+        new_param = "-"
         for par in param[1:]:
             if par == "0":
                 temp = "9"
