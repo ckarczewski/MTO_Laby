@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
+import re
 
 def is_digit(n):
     try:
@@ -37,13 +38,21 @@ def my_printf(format_string,param):
     #print(format_string)
     shouldDo=True
     changed_param = ""
+    result = ""
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'g':
-                if is_digit(param):
-                    changed_param = decrease_numbers(param)
-                print(changed_param,end="")
-                shouldDo=False
+            if format_string[idx] == '#':
+                for jdx in range(idx,len(format_string)):
+                    if format_string[jdx] == 'g':
+                        result = re.search('#(.*)g', format_string)
+                        t = result.group(1)
+                        if t.isdigit():
+                            if is_digit(param):
+                                changed_param = decrease_numbers(param)
+                            print(changed_param,end="")
+                            shouldDo=False
+                        else: 
+                            print(format_string[idx],end="")            
             else:
                 print(format_string[idx],end="")
         else:
