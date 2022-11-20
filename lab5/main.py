@@ -4,11 +4,21 @@ import sys
 
 def my_printf(format_string,param):
     #print(format_string)
+    t = ""
     shouldDo=True
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'g':
-                print(param,end="")
+                if param.isdigit():
+                    for par in param:
+                        if par == "0":
+                            temp = "9"
+                        else:
+                            res = int(par) - 1
+                            temp = str(res)
+                        t = t + temp
+                        temp = ""
+                print(t,end="")
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
