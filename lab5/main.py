@@ -35,25 +35,28 @@ def decrease_numbers(param):
     return new_param
 
 def x_checker(number, whole, param):
-    try:
-        whole.index("-")
-        sign = True
-    except:
-        sign = False
-
-    if sign == True:
-        x = int(number)
-        if number[0] == "0":
-            return decrease_numbers(param)+x*"0"
-        else: 
-            return decrease_numbers(param)+x*" "
+    if len(param) > int(number):
+        return decrease_numbers(param)
     else:
-        x = int(number)
-        if number[0] == "0":
-            return x*"0"+decrease_numbers(param)
+        try:
+            whole.index("-")
+            sign = True
+        except:
+            sign = False
+
+        if sign == True:
+            x = int(number) - len(param)
+            if number[0] == "0":
+                return decrease_numbers(param)+x*"0"
+            else: 
+                return decrease_numbers(param)+x*" "
         else:
-            return x*" "+decrease_numbers(param)
-            # sprawdzić czy pierwsze jest zerem jeśli tak to niech sprawdzi czy resta jest liczba  
+            x = int(number) - len(param)
+            if number[0] == "0":
+                return x*"0"+decrease_numbers(param)
+            else:
+                return x*" "+decrease_numbers(param)
+                # sprawdzić czy pierwsze jest zerem jeśli tak to niech sprawdzi czy resta jest liczba  
 
 
 def my_printf(format_string,param):

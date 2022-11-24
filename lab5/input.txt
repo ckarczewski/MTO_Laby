@@ -40,3 +40,9 @@ test20 #-0005g asd
 1234
 test21 #-01g asd
 345
+test22 #-5g asd
+345
+test23 #-05g asd
+345
+test24 #05g asd
+345

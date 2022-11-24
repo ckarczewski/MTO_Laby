@@ -8,14 +8,17 @@ Error
 Error
 Error
 Error
-test11       0123 asd
-test12       9012 asd
-test13       0129 asd
-test14       -0123 asd
-test15       -90123 asd
+test11   0123 asd
+test12   9012 asd
+test13   0129 asd
+test14  -0123 asd
+test15 -90123 asd
 test16 #dd asd
 test17 #ddg asd
-test18 000000123 asd
-test19 012300000 asd
-test20 012300000 asd
-test21 2340 asd
+test18 00123 asd
+test19 01230 asd
+test20 01230 asd
+test21 234 asd
+test22 234   asd
+test23 23400 asd
+test24 00234 asd
