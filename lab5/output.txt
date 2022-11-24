@@ -15,3 +15,7 @@ test14       -0123 asd
 test15       -90123 asd
 test16 #dd asd
 test17 #ddg asd
+test18 000000123 asd
+test19 012300000 asd
+test20 012300000 asd
+test21 2340 asd

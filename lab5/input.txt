@@ -32,3 +32,11 @@ test16 #dd asd
 1234
 test17 #ddg asd
 1234
+test18 #05g asd
+1234
+test19 #-05g asd
+1234
+test20 #-0005g asd
+1234
+test21 #-01g asd
+345
