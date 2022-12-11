@@ -56,3 +56,9 @@ test28 #05g asd
 22222222222222222222222222222222222222222222222222222
 test29 #05g asd
 -ds
+fjdlskjfldjflj #.g rewrewrew
+123
+fjdlskjfldjflj #.0g rewrewrew
+0
+fjdlskjfldjflj #.0sg rewrewrew
+0

@@ -27,3 +27,6 @@ test26 # -050g asd
 test27 09990 asd
 test28 11111111111111111111111111111111111111111111111111111 asd
 Error
+fjdlskjfldjflj #.g rewrewrew
+fjdlskjfldjflj  rewrewrew
+fjdlskjfldjflj #.0sg rewrewrew
