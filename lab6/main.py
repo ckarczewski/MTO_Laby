@@ -34,11 +34,7 @@ def x_checker(number, whole, param):
             sign = False
 
         if sign == True:
-            x = int(number) - len(param)
-            if number[0] == "0":
-                return decrease_numbers(param)+x*"0"
-            else: 
-                return decrease_numbers(param)+x*" "
+                return "Error"
         else:
             x = int(number) - len(param)
             if number[0] == "0":
