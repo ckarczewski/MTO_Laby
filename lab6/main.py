@@ -15,6 +15,7 @@ def decrease_numbers(param):
     new_param = ""
     if number >= 0:
         for par in param:
+
             if par == "0":
                 temp = "9"
             else:
@@ -62,7 +63,7 @@ def x_checker(number, whole, param):
 def my_printf(format_string,param):
     #print(format_string)
     x_param=""
-    pattern = re.compile(r'#-?(\d+)g')
+    pattern = re.compile(r'#.-?(\d+)g')
     if not is_digit(param):
         print("Error", end="")
         print("")
