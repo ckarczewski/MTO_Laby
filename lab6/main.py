@@ -2,7 +2,6 @@
 
 import sys
 import re
-import math
 
 def is_digit(n):
     try:
@@ -14,13 +13,25 @@ def is_digit(n):
 def decrease_numbers(param):
     number = int(param)
     new_param = ""
-    for par in number:
-        new_par = ((par*9)+1) (mod 10)
-        new_param = str(new_par)
-        if new_par == 0:
-            temp = "9"
-        new_param = new_param + temp
-        temp = ""
+    if number >= 0:
+        for par in param:
+            if par == "0":
+                temp = "9"
+            else:
+                res = (int(par)*9+1) % 10
+                temp = str(res)
+            new_param = new_param + temp
+            temp = ""
+    elif number < 0:
+        new_param = "-"
+        for par in param[1:]:
+            if par == "0":
+                temp = "9"
+            else:
+                res = (int(par)*9+1) % 10
+                temp = str(res)
+            new_param = new_param + temp
+            temp = ""
     return new_param
 
 def x_checker(number, whole, param):
@@ -34,7 +45,11 @@ def x_checker(number, whole, param):
             sign = False
 
         if sign == True:
-                return "Error"
+            x = int(number) - len(param)
+            if number[0] == "0":
+                return decrease_numbers(param)+x*"0"
+            else: 
+                return decrease_numbers(param)+x*" "
         else:
             x = int(number) - len(param)
             if number[0] == "0":
@@ -47,7 +62,7 @@ def x_checker(number, whole, param):
 def my_printf(format_string,param):
     #print(format_string)
     x_param=""
-    pattern = re.compile(r'#.(\d+)g')
+    pattern = re.compile(r'#\.(\d+)g')
     if not is_digit(param):
         print("Error", end="")
         print("")
