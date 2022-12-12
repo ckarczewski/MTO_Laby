@@ -8,25 +8,6 @@ Error
 Error
 Error
 Error
-test11 #6g asd
-test12 #6g asd
-test13 #6g asd
-test14 #6g asd
-test15 #6g asd
-test16 #dd asd
-test17 #ddg asd
-test18 #05g asd
-test19 #-05g asd
-test20 #-0005g asd
-test21 #-01g asd
-test22 #-5g asd
-test23 #-05g asd
-test24 #05g asd
-test25 #- f 05g asd
-test26 # -050g asd
-test27 #05g asd
-test28 #05g asd
-Error
 fjdlskjfldjflj #.g rewrewrew
 fjdlskjfldjflj 9 rewrewrew
 fjdlskjfldjflj #.0sg rewrewrew
@@ -37,3 +18,13 @@ test1 7843 asd
 test2 78439 asd
 test3 -78439 asd
 test4 007 asd
+test5 007 asd
+test6 997 asd
+test7 997 asd
+Error
+test9 #-.3g asd
+test10 #.*3g asd
+test11 0000997 asd
+test12 #.-7g asd
+test13 000-997 asd
+test14 #.-7g asd

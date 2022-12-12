@@ -8,22 +8,20 @@ Error
 Error
 Error
 Error
-test11   0123 asd
-test12   9012 asd
-test13   0129 asd
-test14  -0123 asd
-test15 -90123 asd
-test16 #dd asd
-test17 #ddg asd
-test18 00123 asd
-test19 01230 asd
-test20 01230 asd
-test21 234 asd
-test22 234   asd
-test23 23400 asd
-test24 00234 asd
-test25 #- f 05g asd
-test26 # -050g asd
-test27 09990 asd
-test28 11111111111111111111111111111111111111111111111111111 asd
+fjdlskjfldjflj #.g rewrewrew
+fjdlskjfldjflj 9 rewrewrew
+fjdlskjfldjflj #.0sg rewrewrew
+totafsdfsf #2g fdsfsdf
+totafsd#g fdsfsdf fdfjs
+jfldjfldk #2 wynik
+test1 7843 asd
+test2 78439 asd
+test3 -78439 asd
+test4 007 asd
+test5 007 asd
+test6 997 asd
+test7 997 asd
 Error
+test9 #-.3g asd
+test10 #.*3g asd
+test11 0000997 asd
