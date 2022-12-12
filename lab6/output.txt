@@ -26,5 +26,5 @@ test9 #-.3g asd
 test10 #.*3g asd
 test11 0000997 asd
 test12 #.-7g asd
-test13 000-997 asd
+test13 -000997 asd
 test14 #.-7g asd

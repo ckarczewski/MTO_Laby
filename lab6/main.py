@@ -39,7 +39,11 @@ def x_checker(number, param):
         return change_numbers(param)
     else:
         x = int(number) - len(param)
-        return x*"0"+change_numbers(param)
+        if int(param) > 0:
+            return x*"0"+change_numbers(param)
+        else:
+            num = change_numbers(param)
+            return "-"+x*"0"+num[1:]
  
 
 def my_printf(format_string,param):
