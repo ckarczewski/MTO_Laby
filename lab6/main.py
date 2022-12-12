@@ -10,7 +10,7 @@ def is_digit(n):
     except ValueError:
         return  False
 
-def decrease_numbers(param):
+def change_numbers(param):
     number = int(param)
     new_param = ""
     if number >= 0:
@@ -34,30 +34,13 @@ def decrease_numbers(param):
             temp = ""
     return new_param
 
-def x_checker(number, whole, param):
+def x_checker(number, param):
     if len(param) > int(number):
-        return decrease_numbers(param)
+        return change_numbers(param)
     else:
-        try:
-            whole.index("-")
-            sign = True
-        except:
-            sign = False
-
-        if sign == True:
-            x = int(number) - len(param)
-            if number[0] == "0":
-                return decrease_numbers(param)+x*"0"
-            else: 
-                return decrease_numbers(param)+x*" "
-        else:
-            x = int(number) - len(param)
-            if number[0] == "0":
-                return x*"0"+decrease_numbers(param)
-            else:
-                return x*" "+decrease_numbers(param)
-                # sprawdzić czy pierwsze jest zerem jeśli tak to niech sprawdzi czy resta jest liczba  
-
+        x = int(number) - len(param)
+        return x*"0"+change_numbers(param)
+ 
 
 def my_printf(format_string,param):
     #print(format_string)
@@ -71,7 +54,7 @@ def my_printf(format_string,param):
             result = pattern.search(format_string)
             number = result.group(1)
             whole = result.group(0)
-            out = x_checker(number, whole, param)
+            out = x_checker(number, param)
             new_string = format_string.replace(whole, out)
             print(new_string, end="")
             print("")

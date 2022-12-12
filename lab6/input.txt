@@ -69,6 +69,10 @@ totafsd#g fdsfsdf fdfjs
 jfldjfldk #2 wynik
 2
 test1 #.3g asd
-123
-test2 #03g asd
-123
+4378
+test2 #.3g asd
+43780
+test3 #.3g asd
+-43780
+test4 #.3g asd
+4

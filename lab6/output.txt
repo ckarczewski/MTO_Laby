@@ -33,5 +33,7 @@ fjdlskjfldjflj #.0sg rewrewrew
 totafsdfsf #2g fdsfsdf
 totafsd#g fdsfsdf fdfjs
 jfldjfldk #2 wynik
-test1 012 asd
-test2 #03g asd
+test1 7843 asd
+test2 78439 asd
+test3 -78439 asd
+test4 007 asd
