@@ -66,3 +66,15 @@ test3 #j asd
 -1500
 test4 #j asd
 012
+test5 #jj asd
+12
+test6 # j asd
+15
+test7 #3j asd
+15
+test8 #j asd
+asd
+test9 #j asd
+000
+test10 #j asd
+0

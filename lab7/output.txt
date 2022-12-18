@@ -9,8 +9,8 @@ Error
 Error
 Error
 fjdlskjfldjflj #.g rewrewrew
-Error
-Error
+fjdlskjfldjflj #.0g rewrewrew
+fjdlskjfldjflj #.0sg rewrewrew
 totafsdfsf #2g fdsfsdf
 totafsd#g fdsfsdf fdfjs
 jfldjfldk #2 wynik
@@ -32,3 +32,9 @@ test1 i asd
 test2 5ji asd
 Error
 Error
+test5 ij asd
+test6 # j asd
+test7 #3j asd
+Error
+Error
+test10 0 asd

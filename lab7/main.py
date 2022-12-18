@@ -10,40 +10,8 @@ def is_digit(n):
     except ValueError:
         return  False
 
-def change_numbers(param):
-    number = int(param)
-    new_param = ""
-    if number >= 0:
-        for par in param:
-            if par == "0":
-                temp = "9"
-            else:
-                res = (int(par)*9+1) % 10
-                temp = str(res)
-            new_param = new_param + temp
-            temp = ""
-    elif number < 0:
-        new_param = "-"
-        for par in param[1:]:
-            if par == "0":
-                temp = "9"
-            else:
-                res = (int(par)*9+1) % 10
-                temp = str(res)
-            new_param = new_param + temp
-            temp = ""
-    return new_param
 
-def x_checker(number, param):
-    if len(param) > int(number):
-        return change_numbers(param)
-    else:
-        x = int(number) - len(param)
-        if int(param) > 0:
-            return x*"0"+change_numbers(param)
-        else:
-            num = change_numbers(param)
-            return "-"+x*"0"+num[1:]
+
 
 def hex_change(param):
     num = int(param)
@@ -90,7 +58,7 @@ def my_printf(format_string,param):
     elif int(param) < 0:
         print("Error", end="")
         print("")
-    elif param[0] == "0":
+    elif (param[0] == "0" and len(param)>1):
         print("Error", end="")
         print("")
     else:
