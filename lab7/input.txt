@@ -60,3 +60,7 @@ test14 #.-7g asd
 -004
 test1 #j asd
 12
+test2 #j asd
+1500
+test3 #j asd
+-1500

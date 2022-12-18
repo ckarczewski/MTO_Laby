@@ -87,6 +87,9 @@ def my_printf(format_string,param):
     if not is_digit(param):
         print("Error", end="")
         print("")
+    elif int(param) < 0:
+        print("Error", end="")
+        print("")
     else:
         if ((pattern.search(format_string)) != None):
             result = pattern.search(format_string)

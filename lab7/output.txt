@@ -16,7 +16,7 @@ totafsd#g fdsfsdf fdfjs
 jfldjfldk #2 wynik
 test1 #.3g asd
 test2 #.3g asd
-test3 #.3g asd
+Error
 test4 #.3g asd
 test5 #.003g asd
 test6 #.3g asd
@@ -26,6 +26,8 @@ test9 #-.3g asd
 test10 #.*3g asd
 test11 #.7g asd
 test12 #.-7g asd
-test13 #.7g asd
-test14 #.-7g asd
+Error
+Error
 test1 i asd
+test2 5ji asd
+Error
