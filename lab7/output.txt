@@ -28,4 +28,4 @@ test11 #.7g asd
 test12 #.-7g asd
 test13 #.7g asd
 test14 #.-7g asd
-test1 c asd
+test1 i asd

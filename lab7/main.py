@@ -49,8 +49,36 @@ def hex_change(param):
     num = int(param)
     result = hex(num)
 
-    return str(result[2:])
+    params = str(result[2:])
+    new_param = ""
+
+    for par in params:
+        if par.isdigit():
+            new_param = new_param + par
+        elif par == "a":
+            par = "g"
+            new_param = new_param + par
+        elif par == "b":
+            par = "h"
+            new_param = new_param + par
+        elif par == "c":
+            par = "i"
+            new_param = new_param + par
+        elif par == "d":
+            par = "j"
+            new_param = new_param + par
+        elif par == "e":
+            par = "k"
+            new_param = new_param + par
+        elif par == "f":
+            par = "l"
+            new_param = new_param + par
+
+    return new_param
  
+ #a b c d e f
+
+ #g h i j k l
 
 def my_printf(format_string,param):
     #print(format_string)
