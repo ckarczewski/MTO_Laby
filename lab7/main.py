@@ -90,6 +90,9 @@ def my_printf(format_string,param):
     elif int(param) < 0:
         print("Error", end="")
         print("")
+    elif param[0] == "0":
+        print("Error", end="")
+        print("")
     else:
         if ((pattern.search(format_string)) != None):
             result = pattern.search(format_string)
