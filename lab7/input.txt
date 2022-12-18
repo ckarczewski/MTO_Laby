@@ -1,0 +1,60 @@
+totafsdfsf #g fdsfsdf
+test
+totafsd#g fdsfsdf fdfjs
+test2
+jfldjfldg # wynig
+test3
+fjdfsfds # g alal
+test4
+djfjgldsjf #g jjjjjj fsfjdljfdlsj flj ldfj
+test5
+gjjgdsljflds #g jdlgfjdslf
+test6
+fjdslgfjdl #g tttttt
+test7
+fjdlsjfgl #g oooolll
+test8
+rwrewrew #g fjdslgjfdl
+test9
+fjdlsgjfldjflj #g rewrewrew
+test10
+fjdlskjfldjflj #.g rewrewrew
+123
+fjdlskjfldjflj #.0g rewrewrew
+0
+fjdlskjfldjflj #.0sg rewrewrew
+0
+totafsdfsf #2g fdsfsdf
+2
+totafsd#g fdsfsdf fdfjs
+2
+jfldjfldk #2 wynik
+2
+test1 #.3g asd
+4378
+test2 #.3g asd
+43780
+test3 #.3g asd
+-43780
+test4 #.3g asd
+4
+test5 #.003g asd
+4
+test6 #.3g asd
+004
+test7 #.003g asd
+004
+test8 #.003g asd
+asd
+test9 #-.3g asd
+4
+test10 #.*3g asd
+4
+test11 #.7g asd
+004
+test12 #.-7g asd
+004
+test13 #.7g asd
+-004
+test14 #.-7g asd
+-004
