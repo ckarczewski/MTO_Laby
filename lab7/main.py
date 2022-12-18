@@ -44,21 +44,27 @@ def x_checker(number, param):
         else:
             num = change_numbers(param)
             return "-"+x*"0"+num[1:]
+
+def hex_change(param):
+    num = int(param)
+    result = hex(num)
+
+    return str(result[2:])
  
 
 def my_printf(format_string,param):
     #print(format_string)
     x_param=""
-    pattern = re.compile(r'#\.(\d+)g')
+    pattern = re.compile(r'#j')
     if not is_digit(param):
         print("Error", end="")
         print("")
     else:
         if ((pattern.search(format_string)) != None):
             result = pattern.search(format_string)
-            number = result.group(1)
+            # number = result.group(1)
             whole = result.group(0)
-            out = x_checker(number, param)
+            out = hex_change(param)
             new_string = format_string.replace(whole, out)
             print(new_string, end="")
             print("")

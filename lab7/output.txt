@@ -9,22 +9,23 @@ Error
 Error
 Error
 fjdlskjfldjflj #.g rewrewrew
-fjdlskjfldjflj 9 rewrewrew
+fjdlskjfldjflj #.0g rewrewrew
 fjdlskjfldjflj #.0sg rewrewrew
 totafsdfsf #2g fdsfsdf
 totafsd#g fdsfsdf fdfjs
 jfldjfldk #2 wynik
-test1 7843 asd
-test2 78439 asd
-test3 -78439 asd
-test4 007 asd
-test5 007 asd
-test6 997 asd
-test7 997 asd
+test1 #.3g asd
+test2 #.3g asd
+test3 #.3g asd
+test4 #.3g asd
+test5 #.003g asd
+test6 #.3g asd
+test7 #.003g asd
 Error
 test9 #-.3g asd
 test10 #.*3g asd
-test11 0000997 asd
+test11 #.7g asd
 test12 #.-7g asd
-test13 -000997 asd
+test13 #.7g asd
 test14 #.-7g asd
+test1 c asd
