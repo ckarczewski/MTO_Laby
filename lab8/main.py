@@ -47,6 +47,17 @@ def hex_change(param):
  #a b c d e f
 
  #g h i j k l
+ 
+def x_checker(number, param):
+    if len(param) > int(number):
+        return hex_change(param)
+    else:
+        x = int(number) - len(param)
+        if int(param) > 0:
+            return x*"0"+hex_change(param)
+        # else:
+        #     num = hex_change(param)
+        #     return "-"+x*"0"+num[1:]
 
 def my_printf(format_string,param):
     #print(format_string)
