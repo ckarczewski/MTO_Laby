@@ -58,7 +58,7 @@ test13 #.7g asd
 -004
 test14 #.-7g asd
 -004
-test1 #j asd
+test1 #.5j asd
 12
 test2 #j asd
 1500

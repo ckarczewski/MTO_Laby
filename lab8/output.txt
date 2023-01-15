@@ -29,12 +29,12 @@ Error
 Error
 Error
 test1 i asd
-test2 5ji asd
+test2 #j asd
 Error
 Error
-test5 ij asd
+test5 #jj asd
 test6 # j asd
 test7 #3j asd
 Error
 Error
-test10 0 asd
+test10 #j asd

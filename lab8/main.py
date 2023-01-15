@@ -51,7 +51,7 @@ def hex_change(param):
 def my_printf(format_string,param):
     #print(format_string)
     x_param=""
-    pattern = re.compile(r'#j')
+    pattern = re.compile(r'#\.(\d+)j')
     if not is_digit(param):
         print("Error", end="")
         print("")
@@ -64,7 +64,7 @@ def my_printf(format_string,param):
     else:
         if ((pattern.search(format_string)) != None):
             result = pattern.search(format_string)
-            # number = result.group(1)
+            number = result.group(1)
             whole = result.group(0)
             out = hex_change(param)
             new_string = format_string.replace(whole, out)
