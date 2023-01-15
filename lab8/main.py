@@ -53,7 +53,7 @@ def x_checker(number, param):
         return hex_change(param)
     else:
         x = int(number) - len(hex_change(param))
-        if int(param) > 0:
+        if int(param) >= 0:
             return x*"o"+hex_change(param)
         # else:
         #     num = hex_change(param)
@@ -67,9 +67,6 @@ def my_printf(format_string,param):
         print("Error", end="")
         print("")
     elif int(param) < 0:
-        print("Error", end="")
-        print("")
-    elif (param[0] == "0" and len(param)>1):
         print("Error", end="")
         print("")
     else:

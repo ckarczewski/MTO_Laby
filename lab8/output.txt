@@ -19,22 +19,22 @@ test2 #.3g asd
 Error
 test4 #.3g asd
 test5 #.003g asd
-Error
-Error
+test6 #.3g asd
+test7 #.003g asd
 Error
 test9 #-.3g asd
 test10 #.*3g asd
+test11 #.7g asd
+test12 #.-7g asd
 Error
 Error
+test1 ooooh asd
+test2 oooo5 asd
+test3 5ji asd
 Error
 Error
-test1 0000h asd
-test2 #j asd
+test6 5ji asd
+test7 #..3j asd
 Error
-Error
-test5 #jj asd
-test6 # j asd
-test7 #3j asd
-Error
-Error
-test10 #j asd
+test9 #.j asd
+test10 oooo0 asd

@@ -69,12 +69,12 @@ test4 #.2j asd
 test5 #.2 asd
 -12
 test6 #.2j asd
-.1500
-test7 #3j asd
+1500
+test7 #..3j asd
 15
-test8 #j asd
+test8 # . 5j asd
 asd
-test9 #j asd
+test9 #.j asd
 000
-test10 #j asd
+test10 #.5j asd
 0
