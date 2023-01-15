@@ -54,7 +54,7 @@ def x_checker(number, param):
     else:
         x = int(number) - len(hex_change(param))
         if int(param) > 0:
-            return x*"0"+hex_change(param)
+            return x*"o"+hex_change(param)
         # else:
         #     num = hex_change(param)
         #     return "-"+x*"0"+num[1:]
