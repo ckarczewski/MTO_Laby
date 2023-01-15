@@ -78,3 +78,7 @@ test9 #.j asd
 000
 test10 #.5j asd
 0
+test11 #.5j asd
+1
+test12 #.2j asd
+400

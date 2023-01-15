@@ -38,3 +38,5 @@ test7 #..3j asd
 Error
 test9 #.j asd
 test10 oooo0 asd
+test11 oooo1 asd
+test12 190 asd
