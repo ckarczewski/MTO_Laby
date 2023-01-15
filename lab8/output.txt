@@ -28,7 +28,7 @@ Error
 Error
 Error
 Error
-test1 i asd
+test1 0000h asd
 test2 #j asd
 Error
 Error

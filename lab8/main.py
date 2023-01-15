@@ -52,7 +52,7 @@ def x_checker(number, param):
     if len(param) > int(number):
         return hex_change(param)
     else:
-        x = int(number) - len(param)
+        x = int(number) - len(hex_change(param))
         if int(param) > 0:
             return x*"0"+hex_change(param)
         # else:
@@ -77,7 +77,7 @@ def my_printf(format_string,param):
             result = pattern.search(format_string)
             number = result.group(1)
             whole = result.group(0)
-            out = hex_change(param)
+            out = x_checker(number, param)
             new_string = format_string.replace(whole, out)
             print(new_string, end="")
             print("")

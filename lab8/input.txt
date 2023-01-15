@@ -59,17 +59,17 @@ test13 #.7g asd
 test14 #.-7g asd
 -004
 test1 #.5j asd
-12
-test2 #j asd
+11
+test2 #.5j asd
+05
+test3 #.2j asd
 1500
-test3 #j asd
+test4 #.2j asd
 -1500
-test4 #j asd
-012
-test5 #jj asd
-12
-test6 # j asd
-15
+test5 #.2 asd
+-12
+test6 #.2j asd
+.1500
 test7 #3j asd
 15
 test8 #j asd
